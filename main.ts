@@ -1,11 +1,12 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 let todoList:string [] = [];
 let conditions = true
 
-console.log("\n\t WellCome To Danish Todo-List Application \n");
+console.log(chalk.red.bold("\n\t WellCome To Danish Todo-List Application \n"));
 
 let main = async () => {
     while(conditions){
